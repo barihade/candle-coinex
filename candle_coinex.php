@@ -2,7 +2,7 @@
 
 error_reporting(0);
 
-$token = "659463677:AAH55rr1RUrvzNU8MrKSCWrfjTKpAdvnsHg";
+$token = ""; //Put Telegram API Key here
 $website = "https://api.telegram.org/bot".$token;
 
 $update = file_get_contents("php://input");
